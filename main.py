@@ -14,7 +14,7 @@ class NiazRooz:
 
 	def __init__(self):
 		self._result = []*30
-		self.url = str(input(" pls enter page url : "))
+		self.url = str(input("please enter page url : "))
 		pages = int(input(" how many pages should i extract for you ? "))
 		self.main(pages)
 
